@@ -1,0 +1,21 @@
+/* Extra styles specific to admin panel */
+.admin-badge {
+    background: var(--primary-dark);
+    color: var(--white);
+    padding: .2rem .6rem;
+    border-radius: 12px;
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+.filter-bar {
+    display: flex;
+    gap: .75rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.25rem;
+    align-items: center;
+}
+.filter-bar .form-control { max-width: 240px; }
+.search-box { position: relative; flex: 1; min-width: 200px; max-width: 320px; }
+.search-box input { padding-left: 2.2rem; }
+.search-box::before { content: '🔍'; position: absolute; left: .75rem; top: 50%; transform: translateY(-50%); font-size: .85rem; }

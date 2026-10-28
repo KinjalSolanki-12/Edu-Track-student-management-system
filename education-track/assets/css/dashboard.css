@@ -1,0 +1,20 @@
+/* Extra styles specific to student dashboard widgets */
+.welcome-banner {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: var(--white);
+    border-radius: var(--radius);
+    padding: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+.welcome-banner h2 { color: var(--white); margin-bottom: .25rem; }
+.welcome-banner p { color: #eaf1ff; margin: 0; }
+.timetable-grid { display: grid; grid-template-columns: 90px repeat(6, 1fr); gap: 2px; font-size: .78rem; }
+.timetable-grid .tt-head { background: var(--primary); color: var(--white); padding: .5rem; text-align: center; font-weight: 700; border-radius: 4px; }
+.timetable-grid .tt-time { background: var(--primary-light); padding: .5rem; text-align: center; font-weight: 700; border-radius: 4px; color: var(--primary-dark); }
+.timetable-grid .tt-cell { background: var(--white); padding: .5rem; border-radius: 4px; min-height: 55px; border: 1px solid var(--border); }
+.timetable-grid .tt-cell.filled { background: var(--primary-light); border-color: var(--primary); }
+.tt-course { font-weight: 700; color: var(--primary-dark); }
+.tt-room { color: var(--text-muted); }
+.notif-item { padding: 1rem; border-left: 4px solid var(--primary); background: var(--primary-light); border-radius: 6px; margin-bottom: .75rem; }
+.notif-item .notif-title { font-weight: 700; margin-bottom: .2rem; }
+.notif-item .notif-date { font-size: .75rem; color: var(--text-muted); }

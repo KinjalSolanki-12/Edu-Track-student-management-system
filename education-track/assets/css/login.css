@@ -1,0 +1,31 @@
+/* Extra styles specific to login / register pages (auth-wrapper base lives in style.css) */
+.password-toggle {
+    position: relative;
+}
+.password-toggle input { padding-right: 2.5rem; }
+.password-toggle .toggle-eye {
+    position: absolute;
+    right: .75rem;
+    top: 38px;
+    cursor: pointer;
+    color: var(--text-muted);
+    font-size: 1rem;
+    user-select: none;
+}
+.role-tabs {
+    display: flex;
+    background: var(--primary-light);
+    border-radius: 8px;
+    padding: 4px;
+    margin-bottom: 1.5rem;
+}
+.role-tabs a {
+    flex: 1;
+    text-align: center;
+    padding: .55rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: .88rem;
+    color: var(--primary-dark);
+}
+.role-tabs a.active { background: var(--primary); color: var(--white); }

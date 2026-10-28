@@ -1,0 +1,30 @@
+/* Extra styles for standalone form pages (add/edit) */
+.form-section-title {
+    font-size: .95rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    margin: 1.25rem 0 .75rem;
+    padding-bottom: .4rem;
+    border-bottom: 2px solid var(--primary-light);
+}
+.upload-preview {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.upload-preview img {
+    width: 70px; height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--primary-light);
+}
+.file-input-wrap {
+    border: 2px dashed var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color .15s;
+}
+.file-input-wrap:hover { border-color: var(--primary); }
